@@ -1,0 +1,10 @@
+def_init_(self, side=1.0)
+  self.side = side*4
+  
+  if self.side<0:
+          self.side=0
+          
+  def displayParameter(self):
+       print("Parameter: ", self.side)
+ 
+  
